@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="emerging.js">
+  <script src="emerging.js"></script>
+  <title>Scariest Athletes to Fight in Each Professional Sport</title>
+  <style>
+    
+    header h1{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    img {
+  transition: all 0.3s ease;}
+    body {
+      background: linear-gradient(to bottom, #FF0000, #000000); /* creates red-black gradient background */
+      color: red; /* makes all content appear in blue */;
+    }
+    main{text-align: center;}
+    main h2{font-size:200%;}
+    main li{font-size: 150%;}
+    /* Boxing section */
+    section {
+    display: block; /* make section width same as content */
+    padding: 20px; /* add padding around content */
+    margin: 0 200px; /* add margin below each section */
+    background-color: black; /* set background color for all sections */
+  }
+  /* styles for all images */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px; /* maximum width for all images */
+  }
+    header{color: #000000;}
+    nav li{color: #000000;}
+    nav ul{display: flex;
+    flex-direction: column;}
+  /* styles for images in the boxing section */
+  
+  ul, ol {
+    list-style: none; /* remove bullet points */
+    padding: 0; /* remove default padding */
+    margin: 0; /* remove default margin */
+  }
+  /* set link color for all links */
+  a {
+    color: black; /* set link color to black */
+  }
+
+  /* set link color and underline for visited links */
+  a:visited {
+    color: black; /* set visited link color to black */
+    text-decoration: underline; /* add underline to visited links */
+  }
+  img:hover {
+  animation: bob 1s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+  0% {
+    transform: translateX(-10px)
+    translatey(10px);
+  }
+  33%{transform: translateX(10px)
+    translateY(-10px);
+  }
+  66%{transform: translateX(10px)
+    translateY(10px);}
+  100% {
+    transform: translateX(-10px)
+    translateY(-10px);
+  }}
+.win {
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: red;
+  text-shadow: 2px 2px black;
+}
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+  <header>
+    <h1>Scariest Professional Athletes to Fight in Each Professional Sport</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#boxing">Boxing</a></li>
+      <li><a href="#mma">Mixed Martial Arts</a></li>
+      <li><a href="#wrestling">Wrestling</a></li>
+      <li><a href="#football">Football</a></li>
+      <li><a href="#basketball">Basketball</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="boxing">
+      <h2>Boxing</h2>
+      <p>Here are some of the scariest professional boxers to fight:</p>
+      <ul>
+        <li>Mike Tyson</li>
+        <img src="images/tyson.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 5'10"</li>
+            <li>Weight: 220 lbs</li>
+            <li>Reach: 71 inches</li>
+            <li>Record: 50-6 (44 KOs)</li>
+            <li>Longest unbeaten streak: 37 wins</li>
+            <li>Youngest heavyweight champion in history at age 20</li>
+            <li>Named "Fighter of the Year" by The Ring magazine twice</li>
+            <li>Inducted into the International Boxing Hall of Fame in 2011</li>
+          </ul>
+        <li>George Foreman</li>
+        <img src="images/forman.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'3"</li>
+            <li>Weight: 240 lbs</li>
+            <li>Reach: 82 inches</li>
+            <li>Record: 76-5 (68 KOs)</li>
+            <li>Oldest heavyweight champion in history at age 45</li>
+            <li>Two-time heavyweight champion</li>
+            <li>Inducted into the International Boxing Hall of Fame in 2003</li>
+          </ul>
+        <li>Deontay Wilder</li>
+        <img src="images/wilder.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'7"</li>
+            <li>Weight: 220 lbs</li>
+            <li>Reach: 83 inches</li>
+            <li>Record: 42-1-1 (41 KOs)</li>
+            <li>Won bronze medal at the 2008 Olympics in Beijing</li>
+            <li>Longest reign as WBC heavyweight champion</li>
+            <li>Known for his devastating punching power</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="mma">
+      <h2>Mixed Martial Arts</h2>
+      <p>Here are some of the scariest professional MMA fighters to fight:</p>
+      <ul>
+        <li>Conor McGregor</li>
+        <img src="images/mcgregor.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 5'9"</li>
+            <li>Weight: 155 lbs (lightweight division)</li>
+            <li>Reach: 74 inches</li>
+            <li>Record: 22-5 (19 KOs)</li>
+            <li>Former featherweight and lightweight champion in the UFC</li>
+            <li>Fastest victory in UFC title fight history (13 seconds)</li>
+            <li>First fighter to hold two UFC titles in different weight classes simultaneously</li>
+          </ul>
+        <li>Jon Jones</li>
+        <img src="images/jones.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'4"</li>
+            <li>Weight: 205 lbs (light heavyweight division)</li>
+            <li>Reach: 84.5 inches</li>
+            <li>Record: 26-1 (1 NC) (10 KOs, 6 submissions)</li>
+            <li>Longest reign as UFC light heavyweight champion (over 2,000 days)</li>
+            <li>Known for his unorthodox fighting style and creativity in the octagon</li>
+            <li>Inducted into the UFC Hall of Fame in 2021</li>
+          </ul>
+        <li>Amanda Nunes</li>
+        <img src="images/nunes.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 5'8"</li>
+            <li>Weight: 135 lbs (bantamweight division)</li>
+            <li>Reach: 69 inches</li>
+            <li>Record: 21-4 (14 KOs, 3 submissions)</li>
+            <li>Current UFC women's bantamweight and featherweight champion</li>
+            <li>First woman in UFC history to hold titles in two weight classes simultaneously</li>
+            <li>Known for her knockout power and well-rounded fighting style</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="wrestling">
+      <h2>Wrestling</h2>
+      <p>Here are some of the scariest professional wrestlers to fight:</p>
+      <ul>
+        <li>Brock Lesnar</li>
+        <img src="images/lesnar.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'3"</li>
+            <li>Weight: 286 lbs</li>
+            <li>Finishers: F-5, Kimura Lock</li>
+            <li>Record: 6-3 (in WWE, not including his time in UFC)</li>
+            <li>Won WWE Championship, WWE Universal Championship, and NCAA wrestling championship</li>
+            <li>Known for his brute strength and intense fighting style</li>
+            <li>Also competed in UFC, winning the UFC Heavyweight Championship in 2008</li>
+          </ul>
+        <li>Undertaker</li>
+        <img src="images/undertaker.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'10"</li>
+            <li>Weight: 309 lbs</li>
+            <li>Finishers: Tombstone Piledriver, Chokeslam</li>
+            <li>Record: 25-2 (at WrestleMania, WWE's biggest event)</li>
+            <li>Won multiple WWE Championships, World Heavyweight Championships, and Royal Rumbles</li>
+            <li>Known for his spooky and mystical persona, as well as his legendary WrestleMania streak</li>
+            <li>Inducted into the WWE Hall of Fame in 2020</li>
+          </ul>
+        <li>Stone Cold Steve Austin</li>
+        <img src="images/stonecold.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'2"</li>
+            <li>Weight: 252 lbs</li>
+            <li>Finishers: Stone Cold Stunner, Million Dollar Dream</li>
+            <li>Record: Multiple WWE Championship and Royal Rumble wins</li>
+            <li>Known for his rebellious attitude and anti-authority persona</li>
+            <li>Helped usher in the "Attitude Era" of WWE in the late 1990s</li>
+            <li>Inducted into the WWE Hall of Fame in 2009</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="football">
+      <h2>Football</h2>
+      <p>Here are some of the scariest professional football players to fight:</p>
+      <ul>
+        <li>Ray Lewis</li>
+        <img src="images/lewis.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'1"</li>
+            <li>Weight: 250 lbs</li>
+            <li>Teams: Baltimore Ravens</li>
+            <li>Accolades: 2x Defensive Player of the Year, 13x Pro Bowl, 2x Super Bowl Champion, Super Bowl MVP</li>
+            <li>Career tackles: 2,061</li>
+            <li>Career interceptions: 31</li>
+            <li>Known for his ferocious hits and leadership on the field and killing a dude</li>
+          </ul>
+        <li>Lawrence Taylor</li>
+        <img src="images/taylor.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'3"</li>
+            <li>Weight: 237 lbs</li>
+            <li>Teams: New York Giants</li>
+            <li>Accolades: 3x Defensive Player of the Year, 10x Pro Bowl, 2x Super Bowl Champion, NFL MVP</li>
+            <li>Career tackles: 1,089</li>
+            <li>Career sacks: 132.5</li>
+            <li>Known for revolutionizing the linebacker position and being one of the most dominant defensive players in NFL history</li>
+          </ul>
+        <li>Joey Porter</li>
+        <img src="images/porter.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'3"</li>
+            <li>Weight: 250 lbs</li>
+            <li>Teams: Pittsburgh Steelers, Miami Dolphins, Arizona Cardinals</li>
+            <li>Accolades: 4x Pro Bowl, 1x First-team All-Pro, 2x Second-team All-Pro, 2x Super Bowl Champion</li>
+            <li>Career tackles: 748</li>
+            <li>Career sacks: 98</li>
+            <li>Known for his trash-talking and physical play on the field</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="basketball">
+      <h2>Basketball</h2>
+      <p>Here are some of the scariest professional basketball players to fight:</p>
+      <ul>
+        <li>Dennis Rodman</li>
+        <img src="images/rodman.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'7"</li>
+            <li>Weight: 220 lbs</li>
+            <li>Teams: Detroit Pistons, San Antonio Spurs, Chicago Bulls, Los Angeles Lakers, Dallas Mavericks</li>
+            <li>Accolades: 2x NBA All-Star, 2x Defensive Player of the Year, 7x NBA Rebounding Champion, 5x NBA Champion</li>
+            <li>Career rebounds per game: 13.1</li>
+            <li>Career blocks per game: 0.7</li>
+            <li>Known for his rebounding, defense, and controversial behavior both on and off the court</li>
+          </ul>
+        
+        <li>Shaq</li>
+        <img src="images/shaq.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 7'1"</li>
+            <li>Weight: 325 lbs</li>
+            <li>Career points: 28,596</li>
+            <li>Career rebounds: 13,099</li>
+            <li>Career assists: 3,026</li>
+            <li>NBA Championships won: 4</li>
+            <li>Named NBA Finals MVP three times</li>
+            <li>Inducted into the Naismith Memorial Basketball Hall of Fame in 2016</li>
+          </ul>
+        <li>Metta World Peace</li>
+        <img src="images/world.jpg" alt="Mike Tyson" onclick=moveImage(this)>
+        <ul>
+            <li>Height: 6'7"</li>
+            <li>Weight: 260 lbs</li>
+            <li>Teams: Chicago Bulls, Indiana Pacers, Sacramento Kings, Houston Rockets, Los Angeles Lakers, New York Knicks</li>
+            <li>Accolades: NBA All-Star, NBA Defensive Player of the Year, NBA Champion</li>
+            <li>Career points per game: 13.2</li>
+            <li>Career rebounds per game: 4.5</li>
+            <li>Known for his physical play and controversial behavior, including his role in the infamous "Malice at the Palace" brawl</li>
+          </ul>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2023 Scariest Professional Athletes to Fight in Each Professional Sport 
+    </p>
+  </footer>
+</body>
+</html>
